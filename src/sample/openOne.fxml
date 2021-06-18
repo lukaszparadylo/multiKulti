@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.OpenOne">
+   <children>
+      <Button fx:id="openBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#findAllLockers" prefHeight="60.0" prefWidth="149.0" text="Find lockers" />
+      <Button fx:id="backButton" layoutX="14.0" layoutY="361.0" maxHeight="40.0" maxWidth="80.0" minHeight="40.0" minWidth="80.0" mnemonicParsing="false" onAction="#backToMainMenu" prefHeight="40.0" prefWidth="80.0" text="Back" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label fx:id="label" layoutX="15.0" layoutY="323.0" prefHeight="22.0" prefWidth="1000.0" text="Label" AnchorPane.bottomAnchor="60.0" />
+      <Button fx:id="box1Btn" layoutX="15.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="1" />
+      <Button fx:id="box2Btn" layoutX="75.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="66.0" text="2" />
+      <Button fx:id="box3Btn" layoutX="133.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="3" />
+      <Button fx:id="box4Btn" layoutX="193.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="4" />
+      <Button fx:id="box5Btn" layoutX="253.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="5" />
+      <Button fx:id="box6Btn" layoutX="313.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="6" />
+      <Button fx:id="box7Btn" layoutX="373.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="7" />
+      <Button fx:id="box8Btn" layoutX="433.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="8" />
+      <Button fx:id="box9Btn" layoutX="493.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="9" />
+      <Button fx:id="box10Btn" layoutX="553.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="10" />
+      <Button fx:id="box11Btn" layoutX="613.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="11" />
+      <Button fx:id="box12Btn" layoutX="673.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="12" />
+      <Button fx:id="box13Btn" layoutX="733.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="13" />
+      <Button fx:id="box14Btn" layoutX="793.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="14" />
+      <Button fx:id="box15Btn" layoutX="853.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="15" />
+      <Button fx:id="box16Btn" layoutX="913.0" layoutY="87.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" text="16" />
+      <Button fx:id="box17Btn" layoutX="14.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="17" />
+      <Button fx:id="box18Btn" layoutX="75.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="18" />
+      <Button fx:id="box19Btn" layoutX="133.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="19" />
+      <Button fx:id="box20Btn" layoutX="193.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="20" />
+      <Button fx:id="box21Btn" layoutX="253.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="21" />
+      <Button fx:id="box22Btn" layoutX="313.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="22" />
+      <Button fx:id="box23Btn" layoutX="373.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="23" />
+      <Button fx:id="box24Btn" layoutX="433.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="24" />
+      <Button fx:id="box25Btn" layoutX="493.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="25" />
+      <Button fx:id="box26Btn" layoutX="553.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="26" />
+      <Button fx:id="box27Btn" layoutX="613.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="27" />
+      <Button fx:id="box28Btn" layoutX="673.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="28" />
+      <Button fx:id="box29Btn" layoutX="733.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="29" />
+      <Button fx:id="box30Btn" layoutX="793.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="30" />
+      <Button fx:id="box31Btn" layoutX="853.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="31" />
+      <Button fx:id="box32Btn" layoutX="913.0" layoutY="147.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="32" />
+      <Button fx:id="box33Btn" layoutX="14.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="33" />
+      <Button fx:id="box34Btn" layoutX="75.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="34" />
+      <Button fx:id="box35Btn" layoutX="133.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="35" />
+      <Button fx:id="box36Btn" layoutX="193.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="36" />
+      <Button fx:id="box37Btn" layoutX="253.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="37" />
+      <Button fx:id="box38Btn" layoutX="313.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="38" />
+      <Button fx:id="box39Btn" layoutX="373.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="39" />
+      <Button fx:id="box40Btn" layoutX="433.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="40" />
+      <Button fx:id="box41Btn" layoutX="493.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="41" />
+      <Button fx:id="box42Btn" layoutX="553.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="42" />
+      <Button fx:id="box43Btn" layoutX="613.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="43" />
+      <Button fx:id="box44Btn" layoutX="673.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="44" />
+      <Button fx:id="box45Btn" layoutX="733.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="45" />
+      <Button fx:id="box46Btn" layoutX="793.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="46" />
+      <Button fx:id="box47Btn" layoutX="853.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="47" />
+      <Button fx:id="box48Btn" layoutX="913.0" layoutY="207.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="48" />
+      <Button fx:id="box49Btn" layoutX="433.0" layoutY="267.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="49" />
+      <Button fx:id="box50Btn" layoutX="493.0" layoutY="267.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" mnemonicParsing="false" onAction="#handle" prefHeight="60.0" prefWidth="60.0" text="50" />
+   </children>
+</AnchorPane>

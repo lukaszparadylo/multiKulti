@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainStage">
+   <children>
+      <Label alignment="CENTER" layoutX="423.0" layoutY="14.0" prefHeight="30.0" prefWidth="183.0" text="Select option" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="5.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="474.0" layoutY="632.0" mnemonicParsing="false" text="Open one locker" />
+      <Button layoutX="635.0" layoutY="625.0" mnemonicParsing="false" text="Open all lokers" />
+      <Button layoutX="230.0" layoutY="612.0" mnemonicParsing="false" text="Open locker by number" />
+      <Button layoutX="820.0" layoutY="625.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="14.0" layoutY="47.0" mnemonicParsing="false" onAction="#goToLockerModule" prefHeight="138.0" prefWidth="495.0" text="Lockers" AnchorPane.bottomAnchor="325.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="40.0">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Button>
+      <Button layoutX="515.0" layoutY="40.0" mnemonicParsing="false" onAction="#goToExpanderModule" prefHeight="138.0" prefWidth="495.0" text="Expander" AnchorPane.bottomAnchor="325.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="184.0" mnemonicParsing="false" onAction="#goToResearchModule" prefHeight="195.0" prefWidth="566.0" text="Climate research" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="280.0">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Button>
+      <Button fx:id="closeProgram" layoutX="915.0" layoutY="8.0" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#exitProgram" prefHeight="25.0" prefWidth="25.0" text="X" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

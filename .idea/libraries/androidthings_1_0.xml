@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="androidthings-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../jlibmodbus-master/lib/androidthings-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jlibmodbus-master/lib/jSerialComm-2.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jlibmodbus-master/lib/jssc-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jlibmodbus-master/lib/purejavacomm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jlibmodbus-master/lib/RXTXcomm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ProgramLockers">
+    <Button fx:id="backButton" layoutX="14.0" layoutY="361.0" maxHeight="40.0" maxWidth="80.0" minHeight="40.0" minWidth="80.0" mnemonicParsing="false" onAction="#backToMainMenu" prefHeight="40.0" prefWidth="80.0" text="Back" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0">
+        <font>
+            <Font size="20.0" />
+        </font></Button>
+   <Label layoutX="55.0" layoutY="31.0" text="1. Connect one locker to the modbus line" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Label layoutX="30.0" layoutY="81.0" text="2. Insert new locker's address " AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="90.0">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Label layoutX="30.0" layoutY="145.0" text="3. Click program locker" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="150.0">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Label layoutX="30.0" layoutY="214.0" text="4. When locker do some action then it was corectly programmed" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="210.0">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Label layoutX="30.0" layoutY="259.0" text="5. If you want program more lockers number by number, insert start number and click cycle program" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="270.0">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Label layoutX="30.0" layoutY="333.0" prefHeight="30.0" prefWidth="80.0" text="Address:">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <Button fx:id="programLocker" layoutX="213.0" layoutY="328.0" mnemonicParsing="false" onAction="#programLocker" prefHeight="40.0" prefWidth="108.0" text="Program locker" />
+   <TextField fx:id="programLockerField" layoutX="159.0" layoutY="328.0" prefHeight="40.0" prefWidth="47.0" />
+   <Label layoutX="30.0" layoutY="389.0" text="Start address:">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Label>
+   <TextField fx:id="cycleProgramField" layoutX="159.0" layoutY="377.0" prefHeight="40.0" prefWidth="47.0" />
+   <Button fx:id="cycleProgram" layoutX="213.0" layoutY="377.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="108.0" text="Cycle program" />
+
+</AnchorPane>

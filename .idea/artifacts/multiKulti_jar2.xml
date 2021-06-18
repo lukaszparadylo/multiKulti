@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="multiKulti:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/multiKulti_jar2</output-path>
+    <root id="archive" name="multiKulti.jar">
+      <element id="module-output" name="multiKulti" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jlibmodbus-master/lib/androidthings-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jlibmodbus-master/lib/jSerialComm-2.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jlibmodbus-master/lib/jssc-2.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jlibmodbus-master/lib/purejavacomm.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jlibmodbus-master/lib/RXTXcomm.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-16/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-16/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-16/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-16/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-16/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-16/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-16/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../javafx-sdk-16/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="library" level="module" name="javafx-fxml" module-name="multiKulti" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ClimateResearch">
+   <children>
+      <Label alignment="CENTER" layoutX="260.0" layoutY="192.0" prefHeight="50.0" prefWidth="200.0" rotate="270.0" text="Climate reserch" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="-50.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Button fx:id="backButton" layoutX="35.0" layoutY="307.0" minHeight="40.0" minWidth="80.0" mnemonicParsing="false" onAction="#backToMainMenu" prefHeight="40.0" prefWidth="80.0" text="Back" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <LineChart layoutX="95.0" layoutY="6.0" maxHeight="600.0" maxWidth="900.0" minHeight="600.0" minWidth="900.0" prefHeight="600.0" prefWidth="900.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>
